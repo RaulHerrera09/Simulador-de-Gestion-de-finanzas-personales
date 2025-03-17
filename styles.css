@@ -1,0 +1,30 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.card {
+    border-radius: 12px;
+}
+
+.transaction {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.transaction:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.income {
+    border-left: 5px solid green;
+    background: #d4edda;
+}
+
+.expense {
+    border-left: 5px solid red;
+    background: #f8d7da;
+}
